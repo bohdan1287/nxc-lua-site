@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NXC.LUA | Fatality CS2 Lua Framework</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">NXC.LUA</div>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#features">Features</a>
+      <a href="#preview">Preview</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#information">Information</a>
+      <a href="#refund">Refund Policy</a>
+      <a href="#discord">Discord</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Fatality CS2 Lua Framework</p>
+        <h1>Modern Fatality CS2 Lua Framework.</h1>
+
+        <p class="hero-text">
+          NXC is a polished Lua framework built for Fatality CS2, focused on clean
+          visuals, useful rage helpers, anti-aim tools, misc utilities, and a modern
+          custom menu experience.
+        </p>
+
+        <p class="hero-text">
+          The script is designed to stay clean, compact, and easy to use. Features are
+          off by default, so users can enable only what they want.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#features" class="btn primary">View Features</a>
+          <a href="#preview" class="btn secondary">View Preview</a>
+          <a href="https://discord.gg/wvvmqE5A3f" target="_blank" class="btn secondary">
+            Join Discord
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-brand">
+        <img src="images/nxc-logo.jpg" alt="NXC official logo" />
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading">
+        <p class="eyebrow">Features</p>
+        <h2>Built for clean control and customization.</h2>
+      </div>
+
+      <div class="cards feature-grid">
+        <article class="card">
+          <h3>Visuals</h3>
+          <ul>
+            <li>Watermark</li>
+            <li>Keybind list</li>
+            <li>Hitlogs</li>
+            <li>World hitmarkers</li>
+            <li>Manual indicators</li>
+            <li>Center indicator</li>
+            <li>Spectator list</li>
+            <li>Velocity / movement indicator</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Ragebot Helpers</h3>
+          <ul>
+            <li>JumpScout</li>
+            <li>Auto Scope</li>
+            <li>Force Shoot</li>
+            <li>Shot Viability</li>
+            <li>Air Hitchance</li>
+            <li>Air Pointscale</li>
+            <li>Air Min Damage</li>
+            <li>Force Body HP</li>
+            <li>Bindable Body Aim HP helper</li>
+            <li>Auto Pointscale</li>
+            <li>Wallbang helper profile</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Anti-Aim</h3>
+          <ul>
+            <li>Manual smoothing</li>
+            <li>Manual indicator support</li>
+            <li>Indicator speed tuning</li>
+            <li>Cooldown tuning</li>
+            <li>Adaptive AA Brain</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Misc</h3>
+          <ul>
+            <li>Animated clantag</li>
+            <li>Multiple clantag styles</li>
+            <li>Restore name option</li>
+            <li>Custom hitsounds</li>
+            <li>Quick Ladder</li>
+            <li>Quick Reload</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Theme / Config</h3>
+          <ul>
+            <li>Modern custom menu</li>
+            <li>Dark, Synth, Light, and premium-style themes</li>
+            <li>Accent color presets</li>
+            <li>Reset positions</li>
+            <li>Reset settings</li>
+            <li>Clean tab layout</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Coming Soon</h3>
+          <ul>
+            <li>More visual tools</li>
+            <li>More rage helpers</li>
+            <li>More anti-aim improvements</li>
+            <li>More theme options</li>
+            <li>More quality-of-life updates</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="preview">
+      <div class="section-heading">
+        <p class="eyebrow">Official Preview</p>
+        <h2>Real NXC.LUA menu screenshots.</h2>
+        <p>
+          Preview the custom menu layout, feature tabs, theme system, and config tools
+          directly from the Lua framework.
+        </p>
+      </div>
+
+      <div class="gallery">
+        <article class="gallery-card large">
+          <img src="images/ragebot.jpg" alt="NXC Ragebot menu preview" />
+          <div class="gallery-caption">
+            <span>Ragebot</span>
+            <p>Helpers, air values, body aim, pointscale, and wallbang profile controls.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/antiaim.jpg" alt="NXC Anti-Aim menu preview" />
+          <div class="gallery-caption">
+            <span>Anti-Aim</span>
+            <p>Manual smoothing, indicator tuning, cooldown tuning, and adaptive AA brain.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/visuals.jpg" alt="NXC Visuals menu preview" />
+          <div class="gallery-caption">
+            <span>Visuals</span>
+            <p>HUD, feedback, indicators, velocity, and extra visual tools.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/misc.jpg" alt="NXC Misc menu preview" />
+          <div class="gallery-caption">
+            <span>Misc</span>
+            <p>Clantag controls, restore name option, animation speed, and preview panel.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/theme.jpg" alt="NXC Theme menu preview" />
+          <div class="gallery-caption">
+            <span>Theme</span>
+            <p>Multiple shells, accent presets, and premium-style menu customization.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/config.jpg" alt="NXC Config menu preview" />
+          <div class="gallery-caption">
+            <span>Config</span>
+            <p>Reset positions, reset settings, profile status, and layout controls.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="section-heading">
+        <p class="eyebrow">Pricing</p>
+        <h2>Purchase through the Fatality Workshop.</h2>
+        <p>
+          NXC.LUA is purchased and managed strictly through the official Fatality
+          Workshop page. Payments, access, and ownership are handled by Fatality.
+        </p>
+      </div>
+
+      <div class="pricing-card">
+        <div>
+          <span class="pricing-label">Official Access</span>
+          <h3>NXC.LUA</h3>
+          <p>
+            Includes access to the Lua framework, future improvements, support through
+            Discord tickets, and updates released through the official workshop item.
+          </p>
+        </div>
+
+        <ul>
+          <li>Purchase only through Fatality Workshop</li>
+          <li>Support through Discord tickets</li>
+          <li>Bug reports through Discord tickets</li>
+          <li>Future updates planned</li>
+          <li>Refunds only if the script is inoperable</li>
+        </ul>
+
+        <a
+          href="https://fatality.win/workshop/items/nxc-lua.17670"
+          target="_blank"
+          class="btn primary"
+        >
+          Open Fatality Workshop
+        </a>
+      </div>
+    </section>
+
+    <section class="section split" id="information">
+      <div>
+        <p class="eyebrow">Information</p>
+        <h2>Built to stay simple, clean, and easy to manage.</h2>
+        <p>
+          NXC.LUA is designed around a compact setup style. Features stay disabled
+          by default, so users can enable only the tools they actually want.
+        </p>
+      </div>
+
+      <div class="info-box">
+        <div class="info-item">
+          <span>Setup Style</span>
+          <p>Clean layout with organized tabs, compact controls, and simple options.</p>
+        </div>
+
+        <div class="info-item">
+          <span>Default Behavior</span>
+          <p>Features are off by default to keep the script clean and user-controlled.</p>
+        </div>
+
+        <div class="info-item">
+          <span>Support</span>
+          <p>Support, bug reports, suggestions, and refund requests are handled through Discord tickets.</p>
+        </div>
+
+        <div class="info-item">
+          <span>Future Updates</span>
+          <p>More features, improvements, themes, and quality-of-life updates are planned.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="refund">
+      <div class="section-heading">
+        <p class="eyebrow">Policy</p>
+        <h2>Refund Policy</h2>
+      </div>
+
+      <div class="policy-box">
+        <p>A refund is only possible if the script is inoperable.</p>
+        <p>Refunds are only possible through Discord tickets.</p>
+        <p>Refund requests through the forum will be ignored.</p>
+        <p>There is no refund for negative feedback without explanation.</p>
+      </div>
+    </section>
+
+    <section class="section discord" id="discord">
+      <p class="eyebrow">Community</p>
+      <h2>Official Discord</h2>
+      <p>Join the official Discord for support, tickets, updates, and suggestions.</p>
+
+      <div class="discord-actions">
+        <a href="https://discord.gg/wvvmqE5A3f" target="_blank" class="btn primary">
+          Open Discord
+        </a>
+        <button class="btn secondary" id="copyBtn">Copy Invite</button>
+      </div>
+
+      <p class="copy-status" id="copyStatus"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 NXC.LUA. Fatality CS2 Lua Framework.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
